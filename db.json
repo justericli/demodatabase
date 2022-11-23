@@ -1,14 +1,7 @@
 {
   "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+    { "user": "Eric", "Friends": {"Richard, Brian, Kelvin"}, "Mutual Friends" : {"Ally", "Barrett", "Chris", "Derek", "Erin", "Fred", "Gavin"} },
+    { "user": "Richard", "Friends": {"Alex, Bruce, Calvin"}, "Mutual Friends" : {"Harry", "Ivan", "Jack", "Kathy", "Lauren", "Moe", "Noah"} },
+    { "user": "Kelvin", "Friends": {"Owen, Pierce, Quinn"}, "Mutual Friends" : {"Ryan", "Steven", "Theo", "Umar", "Victoria", "Moe", "Noah"} },
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
 }
