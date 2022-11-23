@@ -1,7 +1,18 @@
 {
   "posts": [
-    { "user": "Eric", "Friends": {"Richard, Brian, Kelvin"}, "Mutual Friends" : {"Ally", "Barrett", "Chris", "Derek", "Erin", "Fred", "Gavin"} },
-    { "user": "Richard", "Friends": {"Alex, Bruce, Calvin"}, "Mutual Friends" : {"Harry", "Ivan", "Jack", "Kathy", "Lauren", "Moe", "Noah"} },
-    { "user": "Kelvin", "Friends": {"Owen, Pierce, Quinn"}, "Mutual Friends" : {"Ryan", "Steven", "Theo", "Umar", "Victoria", "Moe", "Noah"} },
+    { "user": "Eric", 
+     "Cities" : {"New York", "San Francisco", "Vancouver", "Seattle"}, 
+     "Friends": {"Richard, Brian, Kelvin"}, 
+     "Mutual Friends" : {"Ally", "Barrett", "Chris", "Derek", "Erin", "Fred", "Gavin"} },
+    
+    { "user": "Richard", 
+     "Cities": {"New York", "Calgary", "Austin", "Boston"},
+     "Friends": {"Alex, Bruce, Calvin"}, 
+     "Mutual Friends" : {"Harry", "Ivan", "Jack", "Kathy", "Lauren", "Moe", "Noah"} },
+    
+    { "user": "Kelvin", 
+     "Cities": {"Boston", "London", "Miami", "Washington"},
+     "Friends": {"Owen, Pierce, Quinn"}, 
+     "Mutual Friends" : {"Ryan", "Steven", "Theo", "Umar", "Victoria", "Moe", "Noah"} },
   ],
 }
